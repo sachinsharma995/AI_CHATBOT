@@ -1,3 +1,8 @@
+window.onerror = function(msg, url, line) {
+    alert("JS Error: " + msg + " @ " + line);
+};
+
+
 // --- Global Configuration ---
 const API_URL = "https://ai-chatbot-backend-1-m1vw.onrender.com/chat";
 
